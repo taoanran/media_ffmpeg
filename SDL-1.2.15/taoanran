@@ -1,0 +1,817 @@
+acinclude/ltdl.m4:      if grep '^. _nm_test_func' "$ac_nlist" >/dev/null; then
+acinclude/ltdl.m4:        if grep '^. nm_test_func ' "$ac_nlist" >/dev/null; then
+acinclude/libtool.m4:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+acinclude/libtool.m4:  exec AS_MESSAGE_FD>/dev/null
+acinclude/libtool.m4:# open by configure.  Here we exec the FD to /dev/null, effectively closing
+acinclude/libtool.m4:  exec AS_MESSAGE_LOG_FD>/dev/null
+acinclude/libtool.m4:# Libtool was configured on host `(hostname || uname -n) 2>/dev/null | sed 1q`:
+acinclude/libtool.m4:eval "$ac_compile" 2>&1 >/dev/null | $SED '/^$/d; /^ *+/d' >conftest.err
+acinclude/libtool.m4:eval "$ac_link" 2>&1 >/dev/null | $SED '/^$/d; /^ *+/d' >conftest.err
+acinclude/libtool.m4:aix_libpath=`dump -H conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+acinclude/libtool.m4:  aix_libpath=`dump -HX64 conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+acinclude/libtool.m4:elif test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t' ; then
+acinclude/libtool.m4:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+acinclude/libtool.m4:      if { echo_test_string=`eval $cmd`; } 2>/dev/null &&
+acinclude/libtool.m4:	 { test "X$echo_test_string" = "X$echo_test_string"; } 2>/dev/null
+acinclude/libtool.m4:  if test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t' &&
+acinclude/libtool.m4:     echo_testing_string=`{ $ECHO "$echo_test_string"; } 2>/dev/null` &&
+acinclude/libtool.m4:         test "X`($dir/echo '\t') 2>/dev/null`" = 'X\t' &&
+acinclude/libtool.m4:         echo_testing_string=`($dir/echo "$echo_test_string") 2>/dev/null` &&
+acinclude/libtool.m4:      if test "X`{ print -r '\t'; } 2>/dev/null`" = 'X\t' &&
+acinclude/libtool.m4:         echo_testing_string=`{ print -r "$echo_test_string"; } 2>/dev/null` &&
+acinclude/libtool.m4:        if test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t' &&
+acinclude/libtool.m4:	   echo_testing_string=`{ $ECHO "$echo_test_string"; } 2>/dev/null` &&
+acinclude/libtool.m4:        elif echo_testing_string=`($ORIGINAL_CONFIG_SHELL "[$]0" --fallback-echo '\t') 2>/dev/null` &&
+acinclude/libtool.m4:	     echo_testing_string=`($ORIGINAL_CONFIG_SHELL "[$]0" --fallback-echo "$echo_test_string") 2>/dev/null` &&
+acinclude/libtool.m4:        elif echo_testing_string=`($CONFIG_SHELL "[$]0" --fallback-echo '\t') 2>/dev/null` &&
+acinclude/libtool.m4:	     echo_testing_string=`($CONFIG_SHELL "[$]0" --fallback-echo "$echo_test_string") 2>/dev/null` &&
+acinclude/libtool.m4:	    if { test "X$echo_test_string" = "X`eval $cmd`"; } 2>/dev/null
+acinclude/libtool.m4:	if ${LD-ld} -64 -r -o conftest2.o conftest.o >/dev/null 2>&1; then
+acinclude/libtool.m4:     if test ! -s conftest.er2 || diff conftest.exp conftest.er2 >/dev/null; then
+acinclude/libtool.m4:       if diff conftest.exp conftest.er2 >/dev/null; then
+acinclude/libtool.m4:    kargmax=`grep ARG_MAX /etc/conf/cf.d/stune 2>/dev/null`
+acinclude/libtool.m4:    lt_cv_sys_max_cmd_len=`(getconf ARG_MAX) 2> /dev/null`
+acinclude/libtool.m4:      while { test "X"`$SHELL [$]0 --fallback-echo "X$teststring$teststring" 2>/dev/null` \
+acinclude/libtool.m4:	         = "XX$teststring$teststring"; } >/dev/null 2>&1 &&
+acinclude/libtool.m4:  if AC_TRY_EVAL(ac_link) && test -s conftest${ac_exeext} 2>/dev/null; then
+acinclude/libtool.m4:    (./conftest; exit; ) >&AS_MESSAGE_LOG_FD 2>/dev/null
+acinclude/libtool.m4:   $RM -r conftest 2>/dev/null
+acinclude/libtool.m4:     if test ! -s out/conftest.er2 || diff out/conftest.exp out/conftest.er2 >/dev/null; then
+acinclude/libtool.m4:  ln conftest.a conftest.b 2>/dev/null && hard_links=no
+acinclude/libtool.m4:  ln conftest.a conftest.b 2>/dev/null && hard_links=no
+acinclude/libtool.m4:[rm -f .libs 2>/dev/null
+acinclude/libtool.m4:mkdir .libs 2>/dev/null
+acinclude/libtool.m4:rmdir .libs 2>/dev/null])
+acinclude/libtool.m4:if test -n "$STRIP" && $STRIP -V 2>&1 | $GREP "GNU strip" >/dev/null; then
+acinclude/libtool.m4:  if $ECHO "$lt_search_path_spec" | $GREP ';' >/dev/null ; then
+acinclude/libtool.m4:  lt_multi_os_dir=`$CC $CPPFLAGS $CFLAGS $LDFLAGS -print-multi-os-directory 2>/dev/null`
+acinclude/libtool.m4:	   echo '#endif'; } | ${CC} -E - | $GREP yes > /dev/null; then
+acinclude/libtool.m4:    finish_eval='for lib in `ls $libdir/*.ixlibrary 2>/dev/null`; do libname=`$ECHO "X$lib" | $Xsed -e '\''s%^.*/\([[^/]]*\)\.ixlibrary$%\1%'\''`; test $RM /sys/libs/${libname}_ixlibrary.a; $show "cd /sys/libs && $LN_S $lib ${libname}_ixlibrary.a"; cd /sys/libs && $LN_S $lib ${libname}_ixlibrary.a || exit 1; done'
+acinclude/libtool.m4:      if $ECHO "$sys_lib_search_path_spec" | [$GREP ';[c-zC-Z]:/' >/dev/null]; then
+acinclude/libtool.m4:    [AS_IF([ ($OBJDUMP -p conftest$ac_exeext) 2>/dev/null | grep "RUNPATH.*$libdir" >/dev/null],
+acinclude/libtool.m4:    lt_ld_extra=`awk '/^include / { system(sprintf("cd /etc; cat %s 2>/dev/null", \[$]2)); skip = 1; } { if (!skip) print \[$]0; skip = 0; }' < /etc/ld.so.conf | $SED -e 's/#.*//;/^[	 ]*hwcap[	 ]/d;s/[:,	]/ /g;s/=[^=]*$//;s/=[^= ]* / /g;/^$/d' | tr '\n' ' '`
+acinclude/libtool.m4:  if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+acinclude/libtool.m4:	  if eval $file_magic_cmd \$file_magic_test_file 2> /dev/null |
+acinclude/libtool.m4:	    $EGREP "$file_magic_regex" > /dev/null; then
+acinclude/libtool.m4:      while $ECHO "$ac_prog" | $GREP "$re_direlt" > /dev/null 2>&1; do
+acinclude/libtool.m4:      case `"$lt_cv_path_LD" -v 2>&1 </dev/null` in
+acinclude/libtool.m4:case `$LD -v 2>&1 </dev/null` in
+acinclude/libtool.m4:  if ( file / ) >/dev/null 2>&1; then
+acinclude/libtool.m4:  if echo __ELF__ | $CC -E - | $GREP __ELF__ > /dev/null; then
+acinclude/libtool.m4:  if echo __ELF__ | $CC -E - | $GREP __ELF__ > /dev/null; then
+acinclude/libtool.m4:	# Tru64's nm complains that /dev/null is an invalid object file
+acinclude/libtool.m4:	case `"$tmp_nm" -B /dev/null 2>&1 | sed '1q'` in
+acinclude/libtool.m4:	*/dev/null* | *'Invalid file or object type'*)
+acinclude/libtool.m4:	  case `"$tmp_nm" -p /dev/null 2>&1 | sed '1q'` in
+acinclude/libtool.m4:	  */dev/null*)
+acinclude/libtool.m4:  if $GREP 'External.*some_variable' conftest.out > /dev/null; then
+acinclude/libtool.m4:      if $GREP ' nm_test_var$' "$nlist" >/dev/null; then
+acinclude/libtool.m4:	if $GREP ' nm_test_func$' "$nlist" >/dev/null; then
+acinclude/libtool.m4:    if $NM -V 2>&1 | $GREP 'GNU' > /dev/null; then
+acinclude/libtool.m4:    if $LD --help 2>&1 | $GREP 'no-whole-archive' > /dev/null; then
+acinclude/libtool.m4:      if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+acinclude/libtool.m4:      if $LD --help 2>&1 | $GREP 'auto-import' > /dev/null; then
+acinclude/libtool.m4:      if $LD --help 2>&1 | $EGREP ': supported targets:.* elf' > /dev/null \
+acinclude/libtool.m4:      if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+acinclude/libtool.m4:      if $LD -v 2>&1 | $GREP 'BFD 2\.8' > /dev/null; then
+acinclude/libtool.m4:      elif $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+acinclude/libtool.m4:	  if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+acinclude/libtool.m4:      if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+acinclude/libtool.m4:	if $NM -V 2>&1 | $GREP 'GNU' > /dev/null; then
+acinclude/libtool.m4:	   strings "$collect2name" | $GREP resolve_lib_name >/dev/null
+acinclude/libtool.m4:        LDFLAGS="$LDFLAGS -shared ${wl}-exported_symbol ${wl}foo ${wl}-update_registry ${wl}/dev/null"
+acinclude/libtool.m4:      if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+acinclude/libtool.m4:        if AC_TRY_EVAL(_LT_TAGVAR(archive_cmds, $1) 2\>\&1 \| $GREP \" -lc \" \>/dev/null 2\>\&1)
+acinclude/libtool.m4:    ( (test "X$CXX" = "Xg++" && `g++ -v >/dev/null 2>&1` ) ||
+acinclude/libtool.m4:	  $GREP 'no-whole-archive' > /dev/null; then
+acinclude/libtool.m4:	     strings "$collect2name" | $GREP resolve_lib_name >/dev/null
+acinclude/libtool.m4:	if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+acinclude/libtool.m4:        if $LD --help 2>&1 | $GREP 'auto-import' > /dev/null; then
+acinclude/libtool.m4:        if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+acinclude/libtool.m4:	      if $CC --version | $GREP -v '^2\.7' > /dev/null; then
+acinclude/libtool.m4:  cat /dev/null > conftest.in
+acinclude/libtool.m4:  if "$lt_ac_sed" --version 2>&1 < /dev/null | grep 'GNU' > /dev/null; then
+acinclude/libtool.m4:    && test "${#_lt_dummy}" -eq 5' ) >/dev/null 2>&1 \
+acinclude/libtool.m4:    >/dev/null 2>&1 \
+acinclude/libtool.m4:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+acinclude/libtool.m4:  func_len_result=`expr "$[1]" : ".*" 2>/dev/null || echo $max_cmd_len`
+autogen.sh:do if which $autoconf >/dev/null 2>&1; then $autoconf && found=true; break; fi
+build-scripts/install-sh:    { $doit $mvcmd -f "$dsttmp" "$dstdir/$dstfile" 2>/dev/null \
+build-scripts/install-sh:	       $doit $rmcmd -f "$dstdir/$dstfile" 2>/dev/null \
+build-scripts/install-sh:	       || $doit $mvcmd -f "$dstdir/$dstfile" "$rmtmp" 2>/dev/null \
+build-scripts/ltmain.sh:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+build-scripts/ltmain.sh:  case `(set -o) 2>/dev/null` in *posix*) set -o posix;; esac
+build-scripts/ltmain.sh:    $GREP "$1" "$2" >/dev/null 2>&1
+build-scripts/ltmain.sh:        $MKDIR "$my_dir" 2>/dev/null || :
+build-scripts/ltmain.sh:      my_tmpdir=`mktemp -d "${my_template}-XXXXXXXX" 2>/dev/null`
+build-scripts/ltmain.sh:	s/\$automake_version/'"`(automake --version) 2>/dev/null |$SED 1q`"'/
+build-scripts/ltmain.sh:	s/\$autoconf_version/'"`(autoconf --version) 2>/dev/null |$SED 1q`"'/
+build-scripts/ltmain.sh:elif test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t'; then
+build-scripts/ltmain.sh:      if $GREP "$re_begincf" "$progpath" >/dev/null 2>&1; then
+build-scripts/ltmain.sh:      $SED -e 4q "$1" 2>/dev/null \
+build-scripts/ltmain.sh:        | $GREP "^# Generated by .*$PACKAGE" > /dev/null 2>&1
+build-scripts/ltmain.sh:    $GREP "$magic_exe" "$1$func_ltwrapper_exec_suffix" >/dev/null 2>&1
+build-scripts/ltmain.sh:	  if $GREP "^# ### BEGIN LIBTOOL TAG CONFIG: $z$" < "$progpath" > /dev/null; then
+build-scripts/ltmain.sh:      until $opt_dry_run || ln "$progpath" "$lockfile" 2>/dev/null; do
+build-scripts/ltmain.sh:`cat $lockfile 2>/dev/null`
+build-scripts/ltmain.sh:	 test "X`cat $lockfile 2>/dev/null`" != "X$srcfile"; then
+build-scripts/ltmain.sh:`cat $lockfile 2>/dev/null`
+build-scripts/ltmain.sh:	suppress_output=' >/dev/null 2>&1'
+build-scripts/ltmain.sh:	 test "X`cat $lockfile 2>/dev/null`" != "X$srcfile"; then
+build-scripts/ltmain.sh:`cat $lockfile 2>/dev/null`
+build-scripts/ltmain.sh:       $ECHO "X$nonopt" | $GREP shtool >/dev/null; then
+build-scripts/ltmain.sh:	    eval "$NM $dlprefile 2>/dev/null | $global_symbol_pipe >> '$nlist'"
+build-scripts/ltmain.sh:	      if sort -k 3 </dev/null >/dev/null 2>&1; then
+build-scripts/ltmain.sh:  win32_fileres=`file -L $1 2>/dev/null`
+build-scripts/ltmain.sh:    if eval $OBJDUMP -f $1 | $SED -e '10q' 2>/dev/null |
+build-scripts/ltmain.sh:       $EGREP 'file format (pei*-i386(.*architecture: i386)?|pe-arm-wince|pe-x86-64)' >/dev/null ; then
+build-scripts/ltmain.sh:    if ($AR t "$f_ex_an_ar_oldlib" | sort | sort -uc >/dev/null 2>&1); then
+build-scripts/ltmain.sh:	  darwin_arches=`$LIPO -info "$darwin_archive" 2>/dev/null | $GREP Architectures 2>/dev/null || true`
+build-scripts/ltmain.sh:if test -n \"\${ZSH_VERSION+set}\" && (emulate sh) >/dev/null 2>&1; then
+build-scripts/ltmain.sh:  case \`(set -o) 2>/dev/null\` in *posix*) set -o posix;; esac
+build-scripts/ltmain.sh:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+build-scripts/ltmain.sh:    elif test \"X\`{ \$ECHO '\t'; } 2>/dev/null\`\" = 'X\t'; then
+build-scripts/ltmain.sh:     { file=\`ls -1dt \"\$progdir/\$program\" \"\$progdir/../\$program\" 2>/dev/null | ${SED} 1q\`; \\
+build-scripts/ltmain.sh:    $MV \"\$progdir/\$file\" \"\$progdir/\$program\" 2>/dev/null ||
+build-scripts/ltmain.sh:              $SED -e "$lt_sed_strip_trailing_spaces" ) 2>/dev/null || echo ""`
+build-scripts/ltmain.sh:            func_to_host_path_tmp1=`winepath -w "$1" 2>/dev/null`
+build-scripts/ltmain.sh:              $SED -e "$lt_sed_strip_trailing_spaces" ) 2>/dev/null || echo ""`
+build-scripts/ltmain.sh:		  if eval "\$ECHO \"X$deplib\"" 2>/dev/null | $Xsed -e 10q \
+build-scripts/ltmain.sh:		    | $EGREP "$match_pattern_regex" > /dev/null; then
+build-scripts/ltmain.sh:		    if /usr/bin/file -L $add 2> /dev/null |
+build-scripts/ltmain.sh:			 $GREP ": [^:]* bundle" >/dev/null ; then
+build-scripts/ltmain.sh:		if $GREP "^installed=no" $deplib > /dev/null; then
+build-scripts/ltmain.sh:		 if $ECHO "$p" | $EGREP -e "$precious_files_regex" >/dev/null 2>&1
+build-scripts/ltmain.sh:		  potential_libs=`ls $i/$libname[.-]* 2>/dev/null`
+build-scripts/ltmain.sh:		      if ls -lLd "$potent_lib" 2>/dev/null |
+build-scripts/ltmain.sh:			 $GREP " -> " >/dev/null; then
+build-scripts/ltmain.sh:		      while test -h "$potlib" 2>/dev/null; do
+build-scripts/ltmain.sh:		      if eval $file_magic_cmd \"\$potlib\" 2>/dev/null |
+build-scripts/ltmain.sh:			 $EGREP "$file_magic_regex" > /dev/null; then
+build-scripts/ltmain.sh:		  potential_libs=`ls $i/$libname[.-]* 2>/dev/null`
+build-scripts/ltmain.sh:		    if eval "\$ECHO \"X$potent_lib\"" 2>/dev/null | $Xsed -e 10q | \
+build-scripts/ltmain.sh:		       $EGREP "$match_pattern_regex" > /dev/null; then
+build-scripts/ltmain.sh:	     $GREP . >/dev/null; then
+build-scripts/ltmain.sh:	    done | sort | sort -uc >/dev/null 2>&1); then
+build-scripts/ltmain.sh:      if { test -L "$file"; } >/dev/null 2>&1 ||
+build-scripts/ltmain.sh:	 { test -h "$file"; } >/dev/null 2>&1 ||
+build-scripts/ltmain.sh:	func_show_eval "rmdir $dir >/dev/null 2>&1"
+build-scripts/mkinstalldirs:  if mkdir -p -- . 2>/dev/null; then
+build-scripts/mkinstalldirs:  if mkdir -m "$dirmode" -p -- . 2>/dev/null; then
+build-scripts/config.guess:trap "exitcode=\$?; (rm -f \$tmpfiles 2>/dev/null; rmdir \$tmp 2>/dev/null) && exit \$exitcode" 0 ;
+build-scripts/config.guess:trap "rm -f \$tmpfiles 2>/dev/null; rmdir \$tmp 2>/dev/null; exit 1" 1 2 13 15 ;
+build-scripts/config.guess: { tmp=`(umask 077 && mktemp -d "$TMPDIR/cgXXXXXX") 2>/dev/null` && test -n "$tmp" && test -d "$tmp" ; } ||
+build-scripts/config.guess:	  if ($c -c -o $dummy.o $dummy.c) >/dev/null 2>&1 ; then
+build-scripts/config.guess:if (test -f /.attbin/uname) >/dev/null 2>&1 ; then
+build-scripts/config.guess:UNAME_MACHINE=`(uname -m) 2>/dev/null` || UNAME_MACHINE=unknown
+build-scripts/config.guess:UNAME_RELEASE=`(uname -r) 2>/dev/null` || UNAME_RELEASE=unknown
+build-scripts/config.guess:UNAME_SYSTEM=`(uname -s) 2>/dev/null`  || UNAME_SYSTEM=unknown
+build-scripts/config.guess:UNAME_VERSION=`(uname -v) 2>/dev/null` || UNAME_VERSION=unknown
+build-scripts/config.guess:	UNAME_MACHINE_ARCH=`(/sbin/$sysctl 2>/dev/null || \
+build-scripts/config.guess:	    /usr/sbin/$sysctl 2>/dev/null || echo unknown)`
+build-scripts/config.guess:		if echo __ELF__ | $CC_FOR_BUILD -E - 2>/dev/null \
+build-scripts/config.guess:	if test "`(/bin/universe) 2>/dev/null`" = att ; then
+build-scripts/config.guess:		(CCOPTS= $CC_FOR_BUILD -E - 2>/dev/null) | \
+build-scripts/config.guess:		grep IS_64BIT_ARCH >/dev/null
+build-scripts/config.guess:	UNAME_RELEASE=`(sed 1q /etc/motd | awk '{print substr($5,1,3)}') 2>/dev/null`
+build-scripts/config.guess:	if grep bos325 /usr/include/stdio.h >/dev/null 2>&1; then
+build-scripts/config.guess:	elif grep bos324 /usr/include/stdio.h >/dev/null 2>&1; then
+build-scripts/config.guess:	if /usr/sbin/lsattr -El ${IBM_CPU_ID} | grep ' POWER' >/dev/null 2>&1; then
+build-scripts/config.guess:		    sc_cpu_version=`/usr/bin/getconf SC_CPU_VERSION 2>/dev/null`
+build-scripts/config.guess:                    sc_kernel_bits=`/usr/bin/getconf SC_KERNEL_BITS 2>/dev/null`
+build-scripts/config.guess:		    (CCOPTS= $CC_FOR_BUILD -o $dummy $dummy.c 2>/dev/null) && HP_ARCH=`$dummy`
+build-scripts/config.guess:	    if echo __LP64__ | (CCOPTS= $CC_FOR_BUILD -E - 2>/dev/null) |
+build-scripts/config.guess:	if echo __ARM_EABI__ | $CC_FOR_BUILD -E - 2>/dev/null \
+build-scripts/config.guess:	eval "`$CC_FOR_BUILD -E $dummy.c 2>/dev/null | sed -n '
+build-scripts/config.guess:	case `grep '^cpu[^a-z]*:' /proc/cpuinfo 2>/dev/null | cut -d' ' -f2` in
+build-scripts/config.guess:	if grep Novell /usr/include/link.h >/dev/null 2>/dev/null; then
+build-scripts/config.guess:	elif /bin/uname -X 2>/dev/null >/dev/null ; then
+build-scripts/config.guess:		(/bin/uname -X|grep i80486 >/dev/null) && UNAME_MACHINE=i486
+build-scripts/config.guess:		(/bin/uname -X|grep '^Machine.*Pentium' >/dev/null) \
+build-scripts/config.guess:		(/bin/uname -X|grep '^Machine.*Pent *II' >/dev/null) \
+build-scripts/config.guess:		(/bin/uname -X|grep '^Machine.*Pentium Pro' >/dev/null) \
+build-scripts/config.guess:	if grep Stardent /usr/include/sys/uadmin.h >/dev/null 2>&1 ; then
+build-scripts/config.guess:	/bin/uname -p 2>/dev/null | grep 86 >/dev/null \
+build-scripts/config.guess:	/bin/uname -p 2>/dev/null | /bin/grep entium >/dev/null \
+build-scripts/config.guess:        /bin/uname -p 2>/dev/null | grep 86 >/dev/null \
+build-scripts/config.guess:	/bin/uname -p 2>/dev/null | grep 86 >/dev/null \
+build-scripts/config.guess:	/bin/uname -p 2>/dev/null | /bin/grep entium >/dev/null \
+build-scripts/config.guess:	/bin/uname -p 2>/dev/null | /bin/grep pteron >/dev/null \
+build-scripts/config.guess:	if uname -p 2>/dev/null >/dev/null ; then
+build-scripts/config.guess:		UNAME_MACHINE=`(uname -p) 2>/dev/null`
+build-scripts/config.guess:		      (CCOPTS= $CC_FOR_BUILD -E - 2>/dev/null) | \
+build-scripts/config.guess:		      grep IS_64BIT_ARCH >/dev/null
+build-scripts/config.guess:    	UNAME_MACHINE=`(uname -p) 2>/dev/null`
+build-scripts/config.guess:  version=`(hostinfo | sed -n 's/.*NeXT Mach \([0-9]*\).*/\1/p') 2>/dev/null`;
+build-scripts/config.guess:$CC_FOR_BUILD -o $dummy $dummy.c 2>/dev/null && SYSTEM_NAME=`$dummy` &&
+build-scripts/config.guess:uname -m = `(uname -m) 2>/dev/null || echo unknown`
+build-scripts/config.guess:uname -r = `(uname -r) 2>/dev/null || echo unknown`
+build-scripts/config.guess:uname -s = `(uname -s) 2>/dev/null || echo unknown`
+build-scripts/config.guess:uname -v = `(uname -v) 2>/dev/null || echo unknown`
+build-scripts/config.guess:/usr/bin/uname -p = `(/usr/bin/uname -p) 2>/dev/null`
+build-scripts/config.guess:/bin/uname -X     = `(/bin/uname -X) 2>/dev/null`
+build-scripts/config.guess:hostinfo               = `(hostinfo) 2>/dev/null`
+build-scripts/config.guess:/bin/universe          = `(/bin/universe) 2>/dev/null`
+build-scripts/config.guess:/usr/bin/arch -k       = `(/usr/bin/arch -k) 2>/dev/null`
+build-scripts/config.guess:/bin/arch              = `(/bin/arch) 2>/dev/null`
+build-scripts/config.guess:/usr/bin/oslevel       = `(/usr/bin/oslevel) 2>/dev/null`
+build-scripts/config.guess:/usr/convex/getsysinfo = `(/usr/convex/getsysinfo) 2>/dev/null`
+build-scripts/fatbuild.sh:which gcc-4.0 >/dev/null 2>/dev/null
+config.log:configure:8859: gcc -shared conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2\>\&1 \| /bin/grep  -lc  \>/dev/null 2\>\&1
+config.log:conftest.c:110:36: error: linux/ps2/dev.h: No such file or directory
+config.log:|          #include <linux/ps2/dev.h>
+config.status:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+config.status:  case `(set -o) 2>/dev/null` in
+config.status:  if (PATH="/nonexistent;."; conf$$.sh) >/dev/null 2>&1; then
+config.status:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+config.status:do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+config.status:    ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+config.status:if expr a : '\(a\)' >/dev/null 2>&1 &&
+config.status:if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
+config.status:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+config.status:if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
+config.status:if expr a : '\(a\)' >/dev/null 2>&1 &&
+config.status:if ln -s conf$$.file conf$$ 2>/dev/null; then
+config.status:  ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
+config.status:elif ln conf$$.file conf$$ 2>/dev/null; then
+config.status:rmdir conf$$.dir 2>/dev/null
+config.status:if mkdir -p . 2>/dev/null; then
+config.status:if test -x / >/dev/null 2>&1; then
+config.status:  if ls -dL / >/dev/null 2>&1; then
+config.status:	case `ls -ld'$as_ls_L_option' "$1" 2>/dev/null` in
+config.status:on `(hostname || uname -n) 2>/dev/null | sed 1q`
+config.status:  exec 6>/dev/null
+config.status:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+config.status:  tmp=`(umask 077 && mktemp -d "./confXXXXXX") 2>/dev/null` &&
+config.status:	 X"$ac_file" : 'X\(/\)' \| . 2>/dev/null ||
+config.status:	 X"$as_dir" : 'X\(/\)' \| . 2>/dev/null ||
+config.status:    if diff $ac_file "$tmp/config.h" >/dev/null 2>&1; then
+config.status:# Libtool was configured on host `(hostname || uname -n) 2>/dev/null | sed 1q`:
+config.status:  func_len_result=`expr "$1" : ".*" 2>/dev/null || echo $max_cmd_len`
+configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+configure:  case `(set -o) 2>/dev/null` in
+configure:  if (PATH="/nonexistent;."; conf$$.sh) >/dev/null 2>&1; then
+configure:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+configure:do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+configure:    ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+configure:if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
+configure:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+configure:  if (eval ":") 2>/dev/null; then
+configure:") 2> /dev/null; then
+configure:		{ ("$as_shell") 2> /dev/null <<\_ASEOF
+configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+configure:  case `(set -o) 2>/dev/null` in
+configure:	       if { "$as_shell" 2> /dev/null <<\_ASEOF
+configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+configure:  case `(set -o) 2>/dev/null` in
+configure:        do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+configure:if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
+configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+configure:if ln -s conf$$.file conf$$ 2>/dev/null; then
+configure:  ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
+configure:elif ln conf$$.file conf$$ 2>/dev/null; then
+configure:rmdir conf$$.dir 2>/dev/null
+configure:if mkdir -p . 2>/dev/null; then
+configure:if test -x / >/dev/null 2>&1; then
+configure:  if ls -dL / >/dev/null 2>&1; then
+configure:	case `ls -ld'$as_ls_L_option' "$1" 2>/dev/null` in
+configure:elif test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t' ; then
+configure:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+configure:      if { echo_test_string=`eval $cmd`; } 2>/dev/null &&
+configure:	 { test "X$echo_test_string" = "X$echo_test_string"; } 2>/dev/null
+configure:  if test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t' &&
+configure:     echo_testing_string=`{ $ECHO "$echo_test_string"; } 2>/dev/null` &&
+configure:         test "X`($dir/echo '\t') 2>/dev/null`" = 'X\t' &&
+configure:         echo_testing_string=`($dir/echo "$echo_test_string") 2>/dev/null` &&
+configure:      if test "X`{ print -r '\t'; } 2>/dev/null`" = 'X\t' &&
+configure:         echo_testing_string=`{ print -r "$echo_test_string"; } 2>/dev/null` &&
+configure:        if test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t' &&
+configure:	   echo_testing_string=`{ $ECHO "$echo_test_string"; } 2>/dev/null` &&
+configure:        elif echo_testing_string=`($ORIGINAL_CONFIG_SHELL "$0" --fallback-echo '\t') 2>/dev/null` &&
+configure:	     echo_testing_string=`($ORIGINAL_CONFIG_SHELL "$0" --fallback-echo "$echo_test_string") 2>/dev/null` &&
+configure:        elif echo_testing_string=`($CONFIG_SHELL "$0" --fallback-echo '\t') 2>/dev/null` &&
+configure:	     echo_testing_string=`($CONFIG_SHELL "$0" --fallback-echo "$echo_test_string") 2>/dev/null` &&
+configure:	    if { test "X$echo_test_string" = "X`eval $cmd`"; } 2>/dev/null
+configure:exec 7<&0 </dev/null 6>&1
+configure:ac_hostname=`(hostname || uname -n) 2>/dev/null | sed 1q`
+configure:cache_file=/dev/null
+configure:    expr "x$ac_feature" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+configure:    expr "x$ac_feature" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+configure:    expr "x$ac_package" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+configure:    expr "x$ac_package" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+configure:    expr "x$ac_envvar" : ".*[^_$as_cr_alnum]" >/dev/null &&
+configure:    expr "x$ac_option" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+configure:test "$silent" = yes && exec 6>/dev/null
+configure:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+configure:hostname = `(hostname || uname -n) 2>/dev/null | sed 1q`
+configure:uname -m = `(uname -m) 2>/dev/null || echo unknown`
+configure:uname -r = `(uname -r) 2>/dev/null || echo unknown`
+configure:uname -s = `(uname -s) 2>/dev/null || echo unknown`
+configure:uname -v = `(uname -v) 2>/dev/null || echo unknown`
+configure:/usr/bin/uname -p = `(/usr/bin/uname -p) 2>/dev/null || echo unknown`
+configure:/bin/uname -X     = `(/bin/uname -X) 2>/dev/null     || echo unknown`
+configure:/bin/arch              = `(/bin/arch) 2>/dev/null              || echo unknown`
+configure:/usr/bin/arch -k       = `(/usr/bin/arch -k) 2>/dev/null       || echo unknown`
+configure:/usr/convex/getsysinfo = `(/usr/convex/getsysinfo) 2>/dev/null || echo unknown`
+configure:/usr/bin/hostinfo      = `(/usr/bin/hostinfo) 2>/dev/null      || echo unknown`
+configure:/bin/machine           = `(/bin/machine) 2>/dev/null           || echo unknown`
+configure:/usr/bin/oslevel       = `(/usr/bin/oslevel) 2>/dev/null       || echo unknown`
+configure:/bin/universe          = `(/bin/universe) 2>/dev/null          || echo unknown`
+configure:  # Some versions of bash will fail to source /dev/null (special
+configure:$SHELL "$ac_aux_dir/config.sub" sun4 >/dev/null 2>&1 ||
+configure:    "$ac_path_SED" -f conftest.sed < "conftest.nl" >"conftest.out" 2>/dev/null || break
+configure:    diff "conftest.out" "conftest.nl" >/dev/null 2>&1 || break
+configure:    "$ac_path_GREP" -e 'GREP$' -e '-(cannot match)-' < "conftest.nl" >"conftest.out" 2>/dev/null || break
+configure:    diff "conftest.out" "conftest.nl" >/dev/null 2>&1 || break
+configure:  if echo a | $GREP -E '(a|b)' >/dev/null 2>&1
+configure:    "$ac_path_EGREP" 'EGREP$' < "conftest.nl" >"conftest.out" 2>/dev/null || break
+configure:    diff "conftest.out" "conftest.nl" >/dev/null 2>&1 || break
+configure:  if echo 'ab*c' | $GREP -F 'ab*c' >/dev/null 2>&1
+configure:    "$ac_path_FGREP" FGREP < "conftest.nl" >"conftest.out" 2>/dev/null || break
+configure:    diff "conftest.out" "conftest.nl" >/dev/null 2>&1 || break
+configure:      while $ECHO "$ac_prog" | $GREP "$re_direlt" > /dev/null 2>&1; do
+configure:      case `"$lt_cv_path_LD" -v 2>&1 </dev/null` in
+configure:case `$LD -v 2>&1 </dev/null` in
+configure:	# Tru64's nm complains that /dev/null is an invalid object file
+configure:	case `"$tmp_nm" -B /dev/null 2>&1 | sed '1q'` in
+configure:	*/dev/null* | *'Invalid file or object type'*)
+configure:	  case `"$tmp_nm" -p /dev/null 2>&1 | sed '1q'` in
+configure:	  */dev/null*)
+configure:  if $GREP 'External.*some_variable' conftest.out > /dev/null; then
+configure:    kargmax=`grep ARG_MAX /etc/conf/cf.d/stune 2>/dev/null`
+configure:    lt_cv_sys_max_cmd_len=`(getconf ARG_MAX) 2> /dev/null`
+configure:      while { test "X"`$SHELL $0 --fallback-echo "X$teststring$teststring" 2>/dev/null` \
+configure:	         = "XX$teststring$teststring"; } >/dev/null 2>&1 &&
+configure:    && test "${#_lt_dummy}" -eq 5' ) >/dev/null 2>&1 \
+configure:    >/dev/null 2>&1 \
+configure:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+configure:  if ( file / ) >/dev/null 2>&1; then
+configure:  if echo __ELF__ | $CC -E - | $GREP __ELF__ > /dev/null; then
+configure:  if echo __ELF__ | $CC -E - | $GREP __ELF__ > /dev/null; then
+configure:      if $GREP ' nm_test_var$' "$nlist" >/dev/null; then
+configure:	if $GREP ' nm_test_func$' "$nlist" >/dev/null; then
+configure:	if ${LD-ld} -64 -r -o conftest2.o conftest.o >/dev/null 2>&1; then
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  $EGREP "memchr" >/dev/null 2>&1; then
+configure:  $EGREP "free" >/dev/null 2>&1; then
+configure:  rm -f .libs 2>/dev/null
+configure:mkdir .libs 2>/dev/null
+configure:rmdir .libs 2>/dev/null
+configure:	  if eval $file_magic_cmd \$file_magic_test_file 2> /dev/null |
+configure:	    $EGREP "$file_magic_regex" > /dev/null; then
+configure:	  if eval $file_magic_cmd \$file_magic_test_file 2> /dev/null |
+configure:	    $EGREP "$file_magic_regex" > /dev/null; then
+configure:eval "$ac_compile" 2>&1 >/dev/null | $SED '/^$/d; /^ *+/d' >conftest.err
+configure:eval "$ac_link" 2>&1 >/dev/null | $SED '/^$/d; /^ *+/d' >conftest.err
+configure:     if test ! -s conftest.er2 || diff conftest.exp conftest.er2 >/dev/null; then
+configure:     if test ! -s conftest.er2 || diff conftest.exp conftest.er2 >/dev/null; then
+configure:       if diff conftest.exp conftest.er2 >/dev/null; then
+configure:   $RM -r conftest 2>/dev/null
+configure:     if test ! -s out/conftest.er2 || diff out/conftest.exp out/conftest.er2 >/dev/null; then
+configure:   $RM -r conftest 2>/dev/null
+configure:     if test ! -s out/conftest.er2 || diff out/conftest.exp out/conftest.er2 >/dev/null; then
+configure:  ln conftest.a conftest.b 2>/dev/null && hard_links=no
+configure:  ln conftest.a conftest.b 2>/dev/null && hard_links=no
+configure:    if $LD --help 2>&1 | $GREP 'no-whole-archive' > /dev/null; then
+configure:      if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+configure:      if $LD --help 2>&1 | $GREP 'auto-import' > /dev/null; then
+configure:      if $LD --help 2>&1 | $EGREP ': supported targets:.* elf' > /dev/null \
+configure:      if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+configure:      if $LD -v 2>&1 | $GREP 'BFD 2\.8' > /dev/null; then
+configure:      elif $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+configure:	  if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+configure:      if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+configure:	if $NM -V 2>&1 | $GREP 'GNU' > /dev/null; then
+configure:	   strings "$collect2name" | $GREP resolve_lib_name >/dev/null
+configure:aix_libpath=`dump -H conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:  aix_libpath=`dump -HX64 conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:aix_libpath=`dump -H conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:  aix_libpath=`dump -HX64 conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:        LDFLAGS="$LDFLAGS -shared ${wl}-exported_symbol ${wl}foo ${wl}-update_registry ${wl}/dev/null"
+configure:      if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+configure:        if { (eval echo "$as_me:$LINENO: \"$archive_cmds 2\>\&1 \| $GREP \" -lc \" \>/dev/null 2\>\&1\"") >&5
+configure:  (eval $archive_cmds 2\>\&1 \| $GREP \" -lc \" \>/dev/null 2\>\&1) 2>&5
+configure:  if $ECHO "$lt_search_path_spec" | $GREP ';' >/dev/null ; then
+configure:  lt_multi_os_dir=`$CC $CPPFLAGS $CFLAGS $LDFLAGS -print-multi-os-directory 2>/dev/null`
+configure:	   echo '#endif'; } | ${CC} -E - | $GREP yes > /dev/null; then
+configure:    finish_eval='for lib in `ls $libdir/*.ixlibrary 2>/dev/null`; do libname=`$ECHO "X$lib" | $Xsed -e '\''s%^.*/\([^/]*\)\.ixlibrary$%\1%'\''`; test $RM /sys/libs/${libname}_ixlibrary.a; $show "cd /sys/libs && $LN_S $lib ${libname}_ixlibrary.a"; cd /sys/libs && $LN_S $lib ${libname}_ixlibrary.a || exit 1; done'
+configure:      if $ECHO "$sys_lib_search_path_spec" | $GREP ';[c-zC-Z]:/' >/dev/null; then
+configure:  if  ($OBJDUMP -p conftest$ac_exeext) 2>/dev/null | grep "RUNPATH.*$libdir" >/dev/null; then
+configure:    lt_ld_extra=`awk '/^include / { system(sprintf("cd /etc; cat %s 2>/dev/null", \$2)); skip = 1; } { if (!skip) print \$0; skip = 0; }' < /etc/ld.so.conf | $SED -e 's/#.*//;/^[	 ]*hwcap[	 ]/d;s/[:,	]/ /g;s/=[^=]*$//;s/=[^= ]* / /g;/^$/d' | tr '\n' ' '`
+configure:  if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+configure:  (exit $ac_status); } && test -s conftest${ac_exeext} 2>/dev/null; then
+configure:    (./conftest; exit; ) >&5 2>/dev/null
+configure:  (exit $ac_status); } && test -s conftest${ac_exeext} 2>/dev/null; then
+configure:    (./conftest; exit; ) >&5 2>/dev/null
+configure:if test -n "$STRIP" && $STRIP -V 2>&1 | $GREP "GNU strip" >/dev/null; then
+configure:  if grep BIGenDianSyS conftest.$ac_objext >/dev/null ; then
+configure:if grep LiTTleEnDian conftest.$ac_objext >/dev/null ; then
+configure:    ( (test "X$CXX" = "Xg++" && `g++ -v >/dev/null 2>&1` ) ||
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:eval "$ac_compile" 2>&1 >/dev/null | $SED '/^$/d; /^ *+/d' >conftest.err
+configure:eval "$ac_link" 2>&1 >/dev/null | $SED '/^$/d; /^ *+/d' >conftest.err
+configure:      while $ECHO "$ac_prog" | $GREP "$re_direlt" > /dev/null 2>&1; do
+configure:      case `"$lt_cv_path_LD" -v 2>&1 </dev/null` in
+configure:case `$LD -v 2>&1 </dev/null` in
+configure:	  $GREP 'no-whole-archive' > /dev/null; then
+configure:	     strings "$collect2name" | $GREP resolve_lib_name >/dev/null
+configure:aix_libpath=`dump -H conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:  aix_libpath=`dump -HX64 conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:aix_libpath=`dump -H conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:  aix_libpath=`dump -HX64 conftest$ac_exeext 2>/dev/null | $SED -n -e "$lt_aix_libpath_sed"`
+configure:	if $LD --help 2>&1 | $GREP ': supported targets:.* elf' > /dev/null; then
+configure:        if $LD --help 2>&1 | $GREP 'auto-import' > /dev/null; then
+configure:        if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+configure:	      if $CC --version | $GREP -v '^2\.7' > /dev/null; then
+configure:     if test ! -s conftest.er2 || diff conftest.exp conftest.er2 >/dev/null; then
+configure:       if diff conftest.exp conftest.er2 >/dev/null; then
+configure:   $RM -r conftest 2>/dev/null
+configure:     if test ! -s out/conftest.er2 || diff out/conftest.exp out/conftest.er2 >/dev/null; then
+configure:   $RM -r conftest 2>/dev/null
+configure:     if test ! -s out/conftest.er2 || diff out/conftest.exp out/conftest.er2 >/dev/null; then
+configure:  ln conftest.a conftest.b 2>/dev/null && hard_links=no
+configure:  ln conftest.a conftest.b 2>/dev/null && hard_links=no
+configure:    if $NM -V 2>&1 | $GREP 'GNU' > /dev/null; then
+configure:        if { (eval echo "$as_me:$LINENO: \"$archive_cmds_CXX 2\>\&1 \| $GREP \" -lc \" \>/dev/null 2\>\&1\"") >&5
+configure:  (eval $archive_cmds_CXX 2\>\&1 \| $GREP \" -lc \" \>/dev/null 2\>\&1) 2>&5
+configure:	   echo '#endif'; } | ${CC} -E - | $GREP yes > /dev/null; then
+configure:    finish_eval='for lib in `ls $libdir/*.ixlibrary 2>/dev/null`; do libname=`$ECHO "X$lib" | $Xsed -e '\''s%^.*/\([^/]*\)\.ixlibrary$%\1%'\''`; test $RM /sys/libs/${libname}_ixlibrary.a; $show "cd /sys/libs && $LN_S $lib ${libname}_ixlibrary.a"; cd /sys/libs && $LN_S $lib ${libname}_ixlibrary.a || exit 1; done'
+configure:      if $ECHO "$sys_lib_search_path_spec" | $GREP ';[c-zC-Z]:/' >/dev/null; then
+configure:  if  ($OBJDUMP -p conftest$ac_exeext) 2>/dev/null | grep "RUNPATH.*$libdir" >/dev/null; then
+configure:    lt_ld_extra=`awk '/^include / { system(sprintf("cd /etc; cat %s 2>/dev/null", \$2)); skip = 1; } { if (!skip) print \$0; skip = 0; }' < /etc/ld.so.conf | $SED -e 's/#.*//;/^[	 ]*hwcap[	 ]/d;s/[:,	]/ /g;s/=[^=]*$//;s/=[^= ]* / /g;/^$/d' | tr '\n' ' '`
+configure:  if echo __ELF__ | $CC -E - | $GREP __ELF__ >/dev/null; then
+configure:	    grep dspmsg "$as_dir/$ac_prog$ac_exec_ext" >/dev/null 2>&1; then
+configure:	    grep pwplus "$as_dir/$ac_prog$ac_exec_ext" >/dev/null 2>&1; then
+configure:case `${MAKE-make} -f conftest.make 2>/dev/null` in
+configure:    gcc_bin_path=`$CC -print-search-dirs 2>/dev/null | fgrep programs: | sed 's/[^=]*=\(.*\)/\1/' | sed 's/:/ /g'`
+configure:    gcc_lib_path=`$CC -print-search-dirs 2>/dev/null | fgrep libraries: | sed 's/[^=]*=\(.*\)/\1/' | sed 's/:/ /g'`
+configure:        lib=`ls -- $path/$1 2>/dev/null | sort | sed 's/.*\/\(.*\)/\1/; q'`
+configure:  $EGREP "memchr" >/dev/null 2>&1; then
+configure:  $EGREP "free" >/dev/null 2>&1; then
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  $EGREP "webecray" >/dev/null 2>&1; then
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  if (export CC; ${XMKMF-xmkmf}) >/dev/null 2>/dev/null && test -f Makefile; then
+configure:      eval "ac_im_$ac_var=\`\${MAKE-make} $ac_var 2>/dev/null | sed -n 's/^$ac_var=//p'\`"
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:         #include <linux/ps2/dev.h>
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:  (exit $ac_status); } >/dev/null && {
+configure:        ac_default_prefix=/boot/develop/tools/gnupro
+configure:if diff "$cache_file" confcache >/dev/null 2>&1; then :; else
+configure:    test "x$cache_file" != "x/dev/null" &&
+configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+configure:  case `(set -o) 2>/dev/null` in
+configure:  if (PATH="/nonexistent;."; conf$$.sh) >/dev/null 2>&1; then
+configure:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+configure:do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+configure:    ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+configure:if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
+configure:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+configure:if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
+configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+configure:if ln -s conf$$.file conf$$ 2>/dev/null; then
+configure:  ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
+configure:elif ln conf$$.file conf$$ 2>/dev/null; then
+configure:rmdir conf$$.dir 2>/dev/null
+configure:if mkdir -p . 2>/dev/null; then
+configure:if test -x / >/dev/null 2>&1; then
+configure:  if ls -dL / >/dev/null 2>&1; then
+configure:	case `ls -ld'$as_ls_L_option' "$1" 2>/dev/null` in
+configure:on `(hostname || uname -n) 2>/dev/null | sed 1q`
+configure:  exec 6>/dev/null
+configure:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+configure:  tmp=`(umask 077 && mktemp -d "./confXXXXXX") 2>/dev/null` &&
+configure:	 X"$ac_file" : 'X\(/\)' \| . 2>/dev/null ||
+configure:	 X"$as_dir" : 'X\(/\)' \| . 2>/dev/null ||
+configure:  grep . conftest.tail >/dev/null || break
+configure:    if diff $ac_file "$tmp/config.h" >/dev/null 2>&1; then
+configure:# Libtool was configured on host `(hostname || uname -n) 2>/dev/null | sed 1q`:
+configure:  func_len_result=`expr "$1" : ".*" 2>/dev/null || echo $max_cmd_len`
+configure:# output is simply discarded.  So we exec the FD to /dev/null,
+configure:  exec 5>/dev/null
+configure.in:    gcc_bin_path=[`$CC -print-search-dirs 2>/dev/null | fgrep programs: | sed 's/[^=]*=\(.*\)/\1/' | sed 's/:/ /g'`]
+configure.in:    gcc_lib_path=[`$CC -print-search-dirs 2>/dev/null | fgrep libraries: | sed 's/[^=]*=\(.*\)/\1/' | sed 's/:/ /g'`]
+configure.in:        lib=[`ls -- $path/$1 2>/dev/null | sort | sed 's/.*\/\(.*\)/\1/; q'`]
+configure.in:         #include <linux/ps2/dev.h>
+configure.in:        ac_default_prefix=/boot/develop/tools/gnupro
+docs/html/sdlenvvars.html:>Frame buffer device to use in the linux fbcon driver, instead of /dev/fb0</P
+docs/html/sdlenvvars.html:devices (/dev/pcaux, /dev/adbmouse, /dev/mouse etc).</P
+docs/html/sdlenvvars.html:>(OSS /dev/dsp: Linux, Solaris, BSD etc)</P
+docs/html/sdlenvvars.html:>(Unix style /dev/audio: SunOS, Solaris etc)</P
+docs/html/sdlenvvars.html:>(OSS /dev/dsp, using DMA)</P
+docs/html/sdlenvvars.html:a platform-dependent default value (/dev/audio on Solaris,
+docs/html/sdlenvvars.html:/dev/dsp on Linux etc).</P
+docs/html/sdlenvvars.html:the standard devices (typically /dev/cdrom, platform-dependent).</P
+docs/html/sdlenvvars.html:to the usual: /dev/js*, /dev/input/event*, /dev/input/js*</P
+docs/html/sdlcdname.html:>"/dev/cdrom"</P
+docs/html/sdlcdname.html:>"/dev/disk/ide/1/master"</P
+docs/man3/SDL_CDName.3:"/dev/cdrom"
+docs/man3/SDL_CDName.3:"/dev/disk/ide/1/master"
+include/SDL_cdrom.h: *   - "/dev/cdrom"
+include/SDL_cdrom.h: *   - "/dev/disk/ide/1/master"
+Binary file libSDL.a matches
+libtool:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+libtool:  case `(set -o) 2>/dev/null` in *posix*) set -o posix;; esac
+libtool:    $GREP "$1" "$2" >/dev/null 2>&1
+libtool:        $MKDIR "$my_dir" 2>/dev/null || :
+libtool:      my_tmpdir=`mktemp -d "${my_template}-XXXXXXXX" 2>/dev/null`
+libtool:	s/\$automake_version/'"`(automake --version) 2>/dev/null |$SED 1q`"'/
+libtool:	s/\$autoconf_version/'"`(autoconf --version) 2>/dev/null |$SED 1q`"'/
+libtool:elif test "X`{ $ECHO '\t'; } 2>/dev/null`" = 'X\t'; then
+libtool:      if $GREP "$re_begincf" "$progpath" >/dev/null 2>&1; then
+libtool:      $SED -e 4q "$1" 2>/dev/null \
+libtool:        | $GREP "^# Generated by .*$PACKAGE" > /dev/null 2>&1
+libtool:    $GREP "$magic_exe" "$1$func_ltwrapper_exec_suffix" >/dev/null 2>&1
+libtool:	  if $GREP "^# ### BEGIN LIBTOOL TAG CONFIG: $z$" < "$progpath" > /dev/null; then
+libtool:      until $opt_dry_run || ln "$progpath" "$lockfile" 2>/dev/null; do
+libtool:`cat $lockfile 2>/dev/null`
+libtool:	 test "X`cat $lockfile 2>/dev/null`" != "X$srcfile"; then
+libtool:`cat $lockfile 2>/dev/null`
+libtool:	suppress_output=' >/dev/null 2>&1'
+libtool:	 test "X`cat $lockfile 2>/dev/null`" != "X$srcfile"; then
+libtool:`cat $lockfile 2>/dev/null`
+libtool:       $ECHO "X$nonopt" | $GREP shtool >/dev/null; then
+libtool:	    eval "$NM $dlprefile 2>/dev/null | $global_symbol_pipe >> '$nlist'"
+libtool:	      if sort -k 3 </dev/null >/dev/null 2>&1; then
+libtool:  win32_fileres=`file -L $1 2>/dev/null`
+libtool:    if eval $OBJDUMP -f $1 | $SED -e '10q' 2>/dev/null |
+libtool:       $EGREP 'file format (pei*-i386(.*architecture: i386)?|pe-arm-wince|pe-x86-64)' >/dev/null ; then
+libtool:    if ($AR t "$f_ex_an_ar_oldlib" | sort | sort -uc >/dev/null 2>&1); then
+libtool:	  darwin_arches=`$LIPO -info "$darwin_archive" 2>/dev/null | $GREP Architectures 2>/dev/null || true`
+libtool:if test -n \"\${ZSH_VERSION+set}\" && (emulate sh) >/dev/null 2>&1; then
+libtool:  case \`(set -o) 2>/dev/null\` in *posix*) set -o posix;; esac
+libtool:(unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+libtool:    elif test \"X\`{ \$ECHO '\t'; } 2>/dev/null\`\" = 'X\t'; then
+libtool:     { file=\`ls -1dt \"\$progdir/\$program\" \"\$progdir/../\$program\" 2>/dev/null | ${SED} 1q\`; \\
+libtool:    $MV \"\$progdir/\$file\" \"\$progdir/\$program\" 2>/dev/null ||
+libtool:              $SED -e "$lt_sed_strip_trailing_spaces" ) 2>/dev/null || echo ""`
+libtool:            func_to_host_path_tmp1=`winepath -w "$1" 2>/dev/null`
+libtool:              $SED -e "$lt_sed_strip_trailing_spaces" ) 2>/dev/null || echo ""`
+libtool:		  if eval "\$ECHO \"X$deplib\"" 2>/dev/null | $Xsed -e 10q \
+libtool:		    | $EGREP "$match_pattern_regex" > /dev/null; then
+libtool:		    if /usr/bin/file -L $add 2> /dev/null |
+libtool:			 $GREP ": [^:]* bundle" >/dev/null ; then
+libtool:		if $GREP "^installed=no" $deplib > /dev/null; then
+libtool:		 if $ECHO "$p" | $EGREP -e "$precious_files_regex" >/dev/null 2>&1
+libtool:		  potential_libs=`ls $i/$libname[.-]* 2>/dev/null`
+libtool:		      if ls -lLd "$potent_lib" 2>/dev/null |
+libtool:			 $GREP " -> " >/dev/null; then
+libtool:		      while test -h "$potlib" 2>/dev/null; do
+libtool:		      if eval $file_magic_cmd \"\$potlib\" 2>/dev/null |
+libtool:			 $EGREP "$file_magic_regex" > /dev/null; then
+libtool:		  potential_libs=`ls $i/$libname[.-]* 2>/dev/null`
+libtool:		    if eval "\$ECHO \"X$potent_lib\"" 2>/dev/null | $Xsed -e 10q | \
+libtool:		       $EGREP "$match_pattern_regex" > /dev/null; then
+libtool:	     $GREP . >/dev/null; then
+libtool:	    done | sort | sort -uc >/dev/null 2>&1); then
+libtool:      if { test -L "$file"; } >/dev/null 2>&1 ||
+libtool:	 { test -h "$file"; } >/dev/null 2>&1 ||
+libtool:	func_show_eval "rmdir $dir >/dev/null 2>&1"
+README.BeOS:By default it is installed in /boot/develop/tools/gnupro/{bin,lib,etc.}
+README.MacOS:http://developer.apple.com/tools/mpw-tools/
+README.MiNT:Mouse (XBIOS, GEM, Ikbd, /dev/mouse (non working atm, disabled))
+README.MiNT:Audio (Hardware, XBIOS, GSXB, MCSN, STFA, /dev/audio if threads enabled)
+README.MiNT:A preliminary driver for /dev/mouse device driver is present, but is disabled
+README.MiNT:	Set to 'audio' to force Sun /dev/audio audio driver
+README.NanoX:  6: http://www.lokigames.com/development/smpeg.php3 (SMPEG version 0.4.4)
+README.NDS:http://www.libsdl.org/extras/nds/devkitPro-20070503-linux.tar.gz
+README.QNX:Photon3D runtime from http://developers.qnx.com or install it from the
+README.QNX:can't do anything about that, /dev/cd0 has brw------- permissions  and
+README.wscons:current virtual terminal (usually /dev/ttyC0).  To force the driver to
+README.wscons:bash$ SDL_WSCONSDEV=/dev/ttyC1 ./some-sdl-program
+src/cdrom/bsdi/SDL_syscdrom.c:#include </sys/dev/scsi/scsi.h>
+src/cdrom/bsdi/SDL_syscdrom.c:#include </sys/dev/scsi/scsi_ioctl.h>
+src/cdrom/bsdi/SDL_syscdrom.c:	/* checklist: /dev/rsr?c */
+src/cdrom/bsdi/SDL_syscdrom.c:				SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%sc", &checklist[i][3]);
+src/cdrom/bsdi/SDL_syscdrom.c:			SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", checklist[i]);
+src/cdrom/beos/SDL_syscdrom.cc:	try_dir("/dev/disk");
+src/cdrom/aix/SDL_syscdrom.c:#include <sys/devinfo.h>
+src/cdrom/aix/SDL_syscdrom.c:     * We found /dev/cd? drives and that is in our list. But we can
+src/cdrom/aix/SDL_syscdrom.c:     * open only the /dev/rcd? versions of those devices for Audio CD.
+src/cdrom/osf/SDL_syscdrom.c:#include <io/common/devgetinfo.h>
+src/cdrom/osf/SDL_syscdrom.c:     * Tru64 5.X (/dev/rdisk/cdrom?c)
+src/cdrom/osf/SDL_syscdrom.c:     * dir: /dev/rdisk, name: cdrom
+src/cdrom/osf/SDL_syscdrom.c:     * Digital UNIX 4.0X (/dev/rrz?c)
+src/cdrom/osf/SDL_syscdrom.c:     * dir: /dev, name: rrz
+src/cdrom/osf/SDL_syscdrom.c:	{"/dev/rdisk", "cdrom"},
+src/cdrom/osf/SDL_syscdrom.c:	{"/dev", "rrz"},
+src/cdrom/macosx/AudioFileReaderThread.c:    so if you want to see the original search for it on apple.com/developer
+src/cdrom/macosx/AudioFilePlayer.h:    so if you want to see the original search for it on apple.com/developer
+src/cdrom/macosx/AudioFilePlayer.c:    so if you want to see the original search for it on apple.com/developer
+src/cdrom/linux/SDL_syscdrom.c:	/* checklist: /dev/cdrom, /dev/hd?, /dev/scd? /dev/sr? */
+src/cdrom/linux/SDL_syscdrom.c:	/* Check /dev/cdrom first :-) */
+src/cdrom/linux/SDL_syscdrom.c:	if (CheckDrive("/dev/cdrom", NULL, &stbuf) > 0) {
+src/cdrom/linux/SDL_syscdrom.c:		AddDrive("/dev/cdrom", &stbuf);
+src/cdrom/linux/SDL_syscdrom.c:				SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", &checklist[i][3]);
+src/cdrom/linux/SDL_syscdrom.c:			SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", checklist[i]);
+src/cdrom/openbsd/SDL_syscdrom.c:				SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", &checklist[i][3]);
+src/cdrom/openbsd/SDL_syscdrom.c:			SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", checklist[i]);
+src/cdrom/qnx/SDL_syscdrom.c:    /* checklist: /dev/cdrom, /dev/cd?, /dev/scd? */
+src/cdrom/qnx/SDL_syscdrom.c:                SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", &checklist[i][3]);
+src/cdrom/qnx/SDL_syscdrom.c:            SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", checklist[i]);
+src/cdrom/freebsd/SDL_syscdrom.c:	/* checklist: /dev/cdrom,/dev/cd?c /dev/acd?c
+src/cdrom/freebsd/SDL_syscdrom.c:			/dev/matcd?c /dev/mcd?c /dev/scd?c */
+src/cdrom/freebsd/SDL_syscdrom.c:				SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%sc", &checklist[i][3]);
+src/cdrom/freebsd/SDL_syscdrom.c:			SDL_snprintf(drive, SDL_arraysize(drive), "/dev/%s", checklist[i]);
+src/stdlib/SDL_malloc.c:  for standard unix mmap using /dev/zero.
+src/stdlib/SDL_malloc.c:  Causes malloc to use /dev/random to initialize secure magic seed for
+src/stdlib/SDL_malloc.c:static int dev_zero_fd = -1; /* Cached file descriptor for /dev/zero. */
+src/stdlib/SDL_malloc.c:           (dev_zero_fd = open("/dev/zero", O_RDWR), \
+src/stdlib/SDL_malloc.c:      /* Try to use /dev/urandom, else fall back on using time */
+src/stdlib/SDL_malloc.c:      if ((fd = open("/dev/urandom", O_RDONLY)) >= 0 &&
+src/audio/paudio/SDL_paudio.c:	 * /dev/paud supports all of the encoding formats, so we don't need
+src/audio/sun/SDL_sunaudio.c:	"audio", "UNIX /dev/audio interface",
+Binary file src/audio/SDL_audiodev.o matches
+src/audio/dma/SDL_dmaaudio.c:	DMA_DRIVER_NAME, "OSS /dev/dsp DMA audio",
+src/audio/SDL_audiodev.c:#define _PATH_DEV_DSP  "/dev/audio"
+src/audio/SDL_audiodev.c:#define _PATH_DEV_DSP  "/dev/dsp"
+src/audio/SDL_audiodev.c:#define _PATH_DEV_DSP24	"/dev/sound/dsp"
+src/audio/SDL_audiodev.c:#define _PATH_DEV_AUDIO	"/dev/audio"
+src/audio/SDL_audiodev.c:			/* Added support for /dev/sound/\* in Linux 2.4 */
+src/audio/SDL_audiodev.c:			if ( ((stat("/dev/sound", &sb) == 0) && S_ISDIR(sb.st_mode)) &&
+src/audio/SDL_audiodev.c:#define _PATH_DEV_DSP	"/dev/%caud%c/%c"
+src/audio/dsp/SDL_dspaudio.c:	DSP_DRIVER_NAME, "OSS /dev/dsp standard audio",
+src/audio/ums/SDL_umsaudio.c:    char*  audiodev = "/dev/paud0";
+src/joystick/beos/SDL_bejoystick.cc:#include <be/device/Joystick.h>
+src/joystick/bsd/SDL_sysjoystick.c:		SDL_snprintf(s, SDL_arraysize(s), "/dev/uhid%d", i);
+src/joystick/bsd/SDL_sysjoystick.c:		SDL_snprintf(s, SDL_arraysize(s), "/dev/joy%d", i);
+src/joystick/bsd/SDL_sysjoystick.c:	if (! SDL_strncmp(path, "/dev/joy", 8)) {
+src/joystick/bsd/SDL_sysjoystick.c:	if (SDL_strncmp(joy->hwdata->path, "/dev/joy", 8))	{
+src/joystick/linux/SDL_sysjoystick.c:		"/dev/input/event%d",
+src/joystick/linux/SDL_sysjoystick.c:		"/dev/input/js%d",
+src/joystick/linux/SDL_sysjoystick.c:		"/dev/js%d"
+src/joystick/linux/SDL_sysjoystick.c:		   So : /dev/input/eventX = /dev/input/jsY = /dev/jsY
+src/video/ataricommon/SDL_ataridevmouse_c.h:	MiNT /dev/mouse driver
+src/video/ataricommon/SDL_ataridevmouse.c:	MiNT /dev/mouse driver
+src/video/ataricommon/SDL_ataridevmouse.c:#define DEVICE_NAME	"/dev/mouse"
+src/video/quartz/SDL_QuartzGL.m: *   http://developer.apple.com/graphicsimaging/opengl/extensions.html#GL_ARB_multisample
+src/video/ps3/SDL_ps3video.c:	int fd = open("/dev/console", O_RDWR | O_NONBLOCK);
+src/video/ps3/SDL_ps3video.h:#define PS3_DEV_FB "/dev/fb0"
+src/video/svga/SDL_svgavideo.c:	/* SVGALib 1.9.x+ doesn't require root (via /dev/svga) */
+src/video/svga/SDL_svgavideo.c:	svgalib2 = open("/dev/svga", O_RDONLY);
+src/video/Xext/Xxf86dga/XF86DGA.c:#define DEV_MEM "/dev/pmem"
+src/video/Xext/Xxf86dga/XF86DGA.c:#define DEV_MEM "/dev/xsvc"
+src/video/Xext/Xxf86dga/XF86DGA.c:#define DEV_MEM "/dev/mem"
+src/video/Xext/Xxf86dga/XF86DGA.c:	if ((mapFd = open("/dev/mmap", O_RDWR)) < 0)
+src/video/Xext/Xxf86dga/XF86DGA.c:     * Dragon warning here! /dev/pmap$ is never closed, except on progam exit.
+src/video/Xext/Xxf86dga/XF86DGA.c:    rc = DosOpen("/dev/pmap$", &hfd, &action, 0, FILE_NORMAL, FILE_OPEN,
+src/video/Xext/Xxf86dga/XF86DGA2.c:#define DEV_MEM "/dev/pmem"
+src/video/Xext/Xxf86dga/XF86DGA2.c:#define DEV_MEM "/dev/xsvc"
+src/video/Xext/Xxf86dga/XF86DGA2.c:#define DEV_MEM "/dev/mem"
+src/video/Xext/Xxf86dga/XF86DGA2.c:    if ((pMap->fd = open("/dev/mmap", O_RDWR)) < 0)
+src/video/Xext/Xxf86dga/XF86DGA2.c:     * Dragon warning here! /dev/pmap$ is never closed, except on progam exit.
+src/video/Xext/Xxf86dga/XF86DGA2.c:    rc = DosOpen("/dev/pmap$", &hfd, &action, 0, FILE_NORMAL, FILE_OPEN,
+src/video/Xext/Xxf86dga/XF86DGA2.c:    { /* /dev/fb0 fallback added by Sam Lantinga <hercules@lokigames.com> */
+src/video/Xext/Xxf86dga/XF86DGA2.c:        /* Try to fall back to /dev/fb on Linux - FIXME: verify the device */
+src/video/Xext/Xxf86dga/XF86DGA2.c:        if ((pMap->fd = open("/dev/fb0", O_RDWR)) < 0) {
+src/video/ps2gs/SDL_gsvideo.h:#include <linux/ps2/dev.h>
+src/video/ps2gs/SDL_gsyuv.c:	hwdata->ipu_fd = open("/dev/ps2ipu", O_RDWR);
+src/video/ps2gs/SDL_gsevents.c:#define GPM_NODE_FIFO	"/dev/gpmdata"
+src/video/ps2gs/SDL_gsevents.c:		char *tty0[] = { "/dev/tty0", "/dev/vc/0", NULL };
+src/video/ps2gs/SDL_gsevents.c:		char *vcs[] = { "/dev/vc/%d", "/dev/tty%d", NULL };
+src/video/ps2gs/SDL_gsevents.c:					tty0_fd = open("/dev/tty", O_RDWR, 0);
+src/video/ps2gs/SDL_gsevents.c:			keyboard_fd = open("/dev/tty", O_RDWR);
+src/video/ps2gs/SDL_gsevents.c:/* Returns true if /dev/gpmdata is being written to by gpm */
+src/video/ps2gs/SDL_gsevents.c:		    "/dev/input/mice", "/dev/usbmouse", "/dev/psaux", NULL
+src/video/ps2gs/SDL_gsevents.c:			mouse_fd = open("/dev/adbmouse", O_RDONLY, 0);
+src/video/ps2gs/SDL_gsevents.c:			mousedev = "/dev/mouse";
+src/video/gem/SDL_gemvideo.h:	SDL_bool use_dev_mouse;		/* Use /dev/mouse ? */
+src/video/ipod/SDL_ipodvideo.c:	static const char * const tty0[] = { "/dev/tty0", "/dev/vc/0", 0 };
+src/video/ipod/SDL_ipodvideo.c:	static const char * const vcs[] = { "/dev/vc/%d", "/dev/tty%d", 0 };
+src/video/ipod/SDL_ipodvideo.c:	tty0_fd = open("/dev/tty", O_RDWR, 0);
+src/video/ipod/SDL_ipodvideo.c:	if ((fbfd = open ("/dev/fb0", O_RDWR)) < 0) {
+src/video/ipod/SDL_ipodvideo.c:    if ((fd = open ("/dev/fb0", O_RDWR)) < 0) {
+src/video/fbcon/SDL_fbevents.c:#define GPM_NODE_FIFO	"/dev/gpmdata"
+src/video/fbcon/SDL_fbevents.c:		static const char * const tty0[] = { "/dev/tty0", "/dev/vc/0", NULL };
+src/video/fbcon/SDL_fbevents.c:		static const char * const vcs[] = { "/dev/vc/%d", "/dev/tty%d", NULL };
+src/video/fbcon/SDL_fbevents.c:					tty0_fd = open("/dev/tty", O_RDWR, 0);
+src/video/fbcon/SDL_fbevents.c:			keyboard_fd = open("/dev/tty", O_RDWR);
+src/video/fbcon/SDL_fbevents.c:/* Returns true if /dev/gpmdata is being written to by gpm */
+src/video/fbcon/SDL_fbevents.c:		    "/dev/input/mice", "/dev/usbmouse", "/dev/psaux", NULL
+src/video/fbcon/SDL_fbevents.c:			mouse_fd = open("/dev/adbmouse", O_RDONLY, 0);
+src/video/fbcon/SDL_fbevents.c:			mousedev = "/dev/mouse";
+src/video/fbcon/SDL_fbvideo.c:	const char *SDL_fbdevs[4] = { NULL, "/dev/fb0", "/dev/fb/0", NULL };
+src/video/fbcon/SDL_fbvideo.c:		SDL_fbdev = "/dev/fb0";
+src/video/wscons/SDL_wsconsvideo.c:#define WSCONSDEV_FORMAT "/dev/ttyC%01x"
+test/configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+test/configure:  case `(set -o) 2>/dev/null` in
+test/configure:  if (PATH="/nonexistent;."; conf$$.sh) >/dev/null 2>&1; then
+test/configure:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+test/configure:do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+test/configure:    ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+test/configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+test/configure:if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
+test/configure:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+test/configure:  if (eval ":") 2>/dev/null; then
+test/configure:") 2> /dev/null; then
+test/configure:		{ ("$as_shell") 2> /dev/null <<\_ASEOF
+test/configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+test/configure:  case `(set -o) 2>/dev/null` in
+test/configure:	       if { "$as_shell" 2> /dev/null <<\_ASEOF
+test/configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+test/configure:  case `(set -o) 2>/dev/null` in
+test/configure:        do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+test/configure:if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
+test/configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+test/configure:if ln -s conf$$.file conf$$ 2>/dev/null; then
+test/configure:  ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
+test/configure:elif ln conf$$.file conf$$ 2>/dev/null; then
+test/configure:rmdir conf$$.dir 2>/dev/null
+test/configure:if mkdir -p . 2>/dev/null; then
+test/configure:if test -x / >/dev/null 2>&1; then
+test/configure:  if ls -dL / >/dev/null 2>&1; then
+test/configure:	case `ls -ld'$as_ls_L_option' "$1" 2>/dev/null` in
+test/configure:exec 7<&0 </dev/null 6>&1
+test/configure:ac_hostname=`(hostname || uname -n) 2>/dev/null | sed 1q`
+test/configure:cache_file=/dev/null
+test/configure:    expr "x$ac_feature" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+test/configure:    expr "x$ac_feature" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+test/configure:    expr "x$ac_package" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+test/configure:    expr "x$ac_package" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+test/configure:    expr "x$ac_envvar" : ".*[^_$as_cr_alnum]" >/dev/null &&
+test/configure:    expr "x$ac_option" : ".*[^-._$as_cr_alnum]" >/dev/null &&
+test/configure:test "$silent" = yes && exec 6>/dev/null
+test/configure:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+test/configure:hostname = `(hostname || uname -n) 2>/dev/null | sed 1q`
+test/configure:uname -m = `(uname -m) 2>/dev/null || echo unknown`
+test/configure:uname -r = `(uname -r) 2>/dev/null || echo unknown`
+test/configure:uname -s = `(uname -s) 2>/dev/null || echo unknown`
+test/configure:uname -v = `(uname -v) 2>/dev/null || echo unknown`
+test/configure:/usr/bin/uname -p = `(/usr/bin/uname -p) 2>/dev/null || echo unknown`
+test/configure:/bin/uname -X     = `(/bin/uname -X) 2>/dev/null     || echo unknown`
+test/configure:/bin/arch              = `(/bin/arch) 2>/dev/null              || echo unknown`
+test/configure:/usr/bin/arch -k       = `(/usr/bin/arch -k) 2>/dev/null       || echo unknown`
+test/configure:/usr/convex/getsysinfo = `(/usr/convex/getsysinfo) 2>/dev/null || echo unknown`
+test/configure:/usr/bin/hostinfo      = `(/usr/bin/hostinfo) 2>/dev/null      || echo unknown`
+test/configure:/bin/machine           = `(/bin/machine) 2>/dev/null           || echo unknown`
+test/configure:/usr/bin/oslevel       = `(/usr/bin/oslevel) 2>/dev/null       || echo unknown`
+test/configure:/bin/universe          = `(/bin/universe) 2>/dev/null          || echo unknown`
+test/configure:  # Some versions of bash will fail to source /dev/null (special
+test/configure:$SHELL "$ac_aux_dir/config.sub" sun4 >/dev/null 2>&1 ||
+test/configure:  (exit $ac_status); } >/dev/null && {
+test/configure:  (exit $ac_status); } >/dev/null && {
+test/configure:  (exit $ac_status); } >/dev/null && {
+test/configure:  (exit $ac_status); } >/dev/null && {
+test/configure:  if (export CC; ${XMKMF-xmkmf}) >/dev/null 2>/dev/null && test -f Makefile; then
+test/configure:      eval "ac_im_$ac_var=\`\${MAKE-make} $ac_var 2>/dev/null | sed -n 's/^$ac_var=//p'\`"
+test/configure:  (exit $ac_status); } >/dev/null && {
+test/configure:if diff "$cache_file" confcache >/dev/null 2>&1; then :; else
+test/configure:    test "x$cache_file" != "x/dev/null" &&
+test/configure:if test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1; then
+test/configure:  case `(set -o) 2>/dev/null` in
+test/configure:  if (PATH="/nonexistent;."; conf$$.sh) >/dev/null 2>&1; then
+test/configure:if ( (MAIL=60; unset MAIL) || exit) >/dev/null 2>&1; then
+test/configure:do ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+test/configure:    ($as_unset $as_var) >/dev/null 2>&1 && $as_unset $as_var
+test/configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+test/configure:if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
+test/configure:	 X"$0" : 'X\(/\)' \| . 2>/dev/null ||
+test/configure:if (as_dir=`dirname -- /` && test "X$as_dir" = X/) >/dev/null 2>&1; then
+test/configure:if expr a : '\(a\)' >/dev/null 2>&1 &&
+test/configure:if ln -s conf$$.file conf$$ 2>/dev/null; then
+test/configure:  ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
+test/configure:elif ln conf$$.file conf$$ 2>/dev/null; then
+test/configure:rmdir conf$$.dir 2>/dev/null
+test/configure:if mkdir -p . 2>/dev/null; then
+test/configure:if test -x / >/dev/null 2>&1; then
+test/configure:  if ls -dL / >/dev/null 2>&1; then
+test/configure:	case `ls -ld'$as_ls_L_option' "$1" 2>/dev/null` in
+test/configure:on `(hostname || uname -n) 2>/dev/null | sed 1q`
+test/configure:  exec 6>/dev/null
+test/configure:  tmp=`(umask 077 && mktemp -d "./confXXXXXX") 2>/dev/null` &&
+test/configure:	 X"$ac_file" : 'X\(/\)' \| . 2>/dev/null ||
+test/configure:	 X"$as_dir" : 'X\(/\)' \| . 2>/dev/null ||
+test/configure:# output is simply discarded.  So we exec the FD to /dev/null,
+test/configure:  exec 5>/dev/null
+test/autogen.sh:do if which $autoconf >/dev/null 2>&1; then $autoconf && found=true; break; fi
+Xcode/SDL/SDL.xcodeproj/project.pbxproj:			shellScript = "# clean up the framework, remove headers, extra files\nmkdir -p build/dmg-tmp\nmkdir -p build/dmg-tmp/devel-lite\n/Developer/Tools/CpMac -r $TARGET_BUILD_DIR/SDL.framework build/dmg-tmp/\n\n# strip moved to Xcode native mechanism\n# strip -x build/dmg-tmp/SDL.framework/SDL\n\ncp pkg-support/resources/License.rtf build/dmg-tmp\ncp pkg-support/resources/ReadMe.txt build/dmg-tmp\ncp pkg-support/resources/ReadMeDevLite.txt build/dmg-tmp/devel-lite\ncp pkg-support/resources/UniversalBinaryNotes.rtf build/dmg-tmp\n\ncp ../../src/main/macosx/SDLMain.h build/dmg-tmp/devel-lite\ncp ../../src/main/macosx/SDLMain.m build/dmg-tmp/devel-lite\n\n# remove the .DS_Store files if any (we may want to provide one in the future for fancy .dmgs)\nfind build/dmg-tmp -name .DS_Store -exec rm -f \"{}\" \\;\nfind -d build/dmg-tmp -type d -name .svn -exec rm -rf \"{}\" \\;\n\n# for fancy .dmg\nmkdir -p build/dmg-tmp/.logo\ncp pkg-support/resources/SDL_DS_Store build/dmg-tmp/.DS_Store\ncp pkg-support/sdl_logo.pdf build/dmg-tmp/.logo\n\n# create the dmg\nhdiutil create -ov -fs HFS+ -volname SDL -srcfolder build/dmg-tmp build/SDL.dmg\n\n# clean up\nrm -rf build/dmg-tmp\n\n# compress it???\n#(cd build; gnutar -zcvf SDL.dmg.tar.gz SDL.dmg)";
+Xcode/SDL/SDL.xcodeproj/project.pbxproj:			comments = "The old .pkg generator script:\n\n# make a copy of the framework to work with\nmkdir -p build/pkg-tmp\n\n## We're changing this to follow OS X conventions, where the headers and\n## framework are bundled together. Thus this development package won't \n## actually contain any direct framework elements.\n#/Developer/Tools/CpMac -r build/SDL.framework build/pkg-tmp/\n\n# copy in some files they might want around...\ncp ../../docs.html build/pkg-tmp\ncp -r ../../docs build/pkg-tmp\n#cp -r ../../src/main/macosx build/pkg-tmp/\n#rm -rf build/pkg-tmp/main/exports\ncp -r \"../Project Stationary\" build/pkg-tmp/\ncp \"pkg-support/Readme SDL Developer.txt\" build/pkg-tmp/\n#cp \"../uninstall.csh\" build/pkg-tmp/\n\n## We shouldn't have any framework stuff to deal with now\n# clean up the framework, remove extra files\n# rm -rf build/pkg-tmp/SDL.framework/Resources/pbdevelopment.plist\n\n# remove the .DS_Store file to keep tool from crapping out\nfind pkg-support -name \".DS_Store\" -exec rm -rf \"{}\" \";\" \n\n# create the .pkg\n../package build/pkg-tmp pkg-support/SDL-devel.info -d build -r pkg-support/devel-resources \n#\"/Developer/Applications/Utilities/PackageMaker.app/Contents/MacOS/PackageMaker\" -build -p build/ -f build/pkg-tmp -r pkg-support/devel-resources -i Info.plist -d Description.plist\n\n# create install scripts\nDIR=build/SDL-devel.pkg/\ncp $DIR/install.sh $DIR/SDL-devel.post_install\nmv $DIR/install.sh $DIR/SDL-devel.post_upgrade\n\n# add execute flag to scripts\nchmod 755 $DIR/SDL-devel.post_install $DIR/SDL-devel.post_upgrade\n\n# remove temporary files\n#rm -rf build/pkg-tmp\n\n# compress\n(cd build; gnutar -zcvf SDL-devel.pkg.tar.gz SDL-devel.pkg)";
+Xcode/SDL/SDL.xcodeproj/project.pbxproj:			shellScript = "# make a directory to hold the stuff we're going to package up\nmkdir -p build/devel-extras-tmp\nmkdir -p build/devel-extras-tmp/Documentation\nmkdir -p build/devel-extras-tmp/Documentation/docs/XcodeDocSet\nmkdir -p build/devel-extras-tmp/XcodeTemplates\nmkdir -p build/devel-extras-tmp/SDLMain\nmkdir -p build/devel-extras-tmp/SDLMain/NIBless\nmkdir -p build/devel-extras-tmp/SDLMain/CocoaMenus\n\n# copy the docs\ncp ../../docs.html build/devel-extras-tmp/Documentation\ncp -r ../../docs build/devel-extras-tmp/Documentation\n\n# Copy Doxyfile for DocSet\ncp $SRCROOT/../XcodeDocSet/Doxyfile build/devel-extras-tmp/Documentation/docs/XcodeDocSet\n\n# Copy DocSet (if it exists)\nif [ -d $SRCROOT/../XcodeDocSet/org.libsdl.sdl.docset ] ; then\n#\techo Found docset directory\n\tmv $SRCROOT/../XcodeDocSet/org.libsdl.sdl.docset build/devel-extras-tmp/Documentation/docs/XcodeDocSet/\nelse\n\techo Warning: Could not find DocSet and will be omitted from package\nfi\n\n# copy the Xcode Project user templates\ncp -r \"../TemplatesForXcodeTiger\" build/devel-extras-tmp/XcodeTemplates\ncp -r \"../TemplatesForXcodeLeopard\" build/devel-extras-tmp/XcodeTemplates\ncp -r \"../TemplatesForXcodeSnowLeopard\" build/devel-extras-tmp/XcodeTemplates\n\ncp \"pkg-support/Readme SDL Developer.txt\" build/devel-extras-tmp\n\n# readme file\n#cp pkg-support/resources/ReadMe.txt build/devel-extras-tmp\n\n#cp pkg-support/resources/UniversalBinaryNotes.rtf build/devel-extras-tmp\n\n# Copy the devel-lite stuff just in case the user didn't notice it in the main package\n# I should copy all the different SDLMain versions (and nibs) instead.\n# I'm assuming the default is the same as the SDL App and SDL/OpenGL templates\n\ncp pkg-support/resources/ReadMeDevLite.txt build/devel-extras-tmp/SDLMain/NIBless\ncp ../../src/main/macosx/SDLMain.h build/devel-extras-tmp/SDLMain/NIBless\ncp ../../src/main/macosx/SDLMain.m build/devel-extras-tmp/SDLMain/NIBless\n\n# Nib stuff from SDL-Cocoa App\n/Developer/Tools/CpMac -r \"../TemplatesForXcodeSnowLeopard/SDL Cocoa Application/SDLMain.h\" build/devel-extras-tmp/SDLMain/CocoaMenus\n/Developer/Tools/CpMac -r \"../TemplatesForXcodeSnowLeopard/SDL Cocoa Application/SDLMain.m\" build/devel-extras-tmp/SDLMain/CocoaMenus\n/Developer/Tools/CpMac -r \"../TemplatesForXcodeSnowLeopard/SDL Cocoa Application/English.lproj/SDLMain.nib\" build/devel-extras-tmp/SDLMain/CocoaMenus\n\n# Copy precompiled libSDLmain.a's here??? We have potentially 3 different ones?\n# /Developer/Tools/CpMac -r $TARGET_BUILD_DIR/libSDLmain.a build/devel-extras-tmp/SDLMain/NIBless\n#\n#\n\n# Copy sdl-config's for those who've been wanting one? Will need to document that it may\n# require manual changes if you don't install the framework to /Library/Frameworks\n# <<sdl-config here>>\n\n# remove the .DS_Store files if any (we may want to provide one in the future for fancy .dmgs)\nfind build/devel-extras-tmp -name .DS_Store -exec rm -f \"{}\" \\;\n# remove CVS stuff\nfind build/devel-extras-tmp -name .cvsignore -exec rm -f \"{}\" \\;\n# depth first traversal, type=directory, remove recursively\nfind -d build/devel-extras-tmp -type d -name CVS -exec rm -rf \"{}\" \\;\nfind -d build/devel-extras-tmp -type d -name .svn -exec rm -rf \"{}\" \\;\n\n\n# create the dmg\nhdiutil create -ov -fs HFS+ -volname SDL-devel-extras -srcfolder build/devel-extras-tmp build/SDL-devel-extras.dmg\n\n# clean up\nrm -rf build/devel-extras-tmp\n\n# compress it???\n#(cd build; gnutar -zcvf SDL.dmg.tar.gz SDL.dmg)\n\n";
+Xcode/SDL/pkg-support/resources/UniversalBinaryNotes.rtf:{\field{\*\fldinst{HYPERLINK "http://developer.apple.com/documentation/DeveloperTools/Conceptual/XcodeUserGuide/Contents/Resources/en.lproj/05_07_bs_building_product/chapter_33_section_6.html#//apple_ref/doc/uid/TP40002693-SW3"}}{\fldrslt \cf0 http://developer.apple.com/documentation/DeveloperTools/Conceptual/XcodeUserGuide/Contents/Resources/en.lproj/05_07_bs_building_product/chapter_33_section_6.html#//apple_ref/doc/uid/TP40002693-SW3}}\
+Xcode/package:    pushd $resDir > /dev/null
+Xcode/package:    popd > /dev/null
+Xcode/package:    pushd $pkg > /dev/null
+Xcode/package:    popd > /dev/null
+Xcode/package:    $mkbom $parent $pkgBom >& /dev/null
+Xcode/package:    $mkbom $rootDir $pkgBom >& /dev/null
+Xcode/XcodeDocSet/Doxyfile:# See http://developer.apple.com/tools/creatingdocsetswithdoxygen.html for more information.

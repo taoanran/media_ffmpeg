@@ -1,0 +1,14 @@
+prefix=/home/taoanran/git/anrdroid4.0/ffmpeg_android_bin
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 53.1.1
+Requires: libavformat = 53.5.0
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavdevice 
+Libs.private: 
+Cflags: -I${includedir}

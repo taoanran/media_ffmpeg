@@ -1,0 +1,31 @@
+#!/bin/bash
+ROOTDIR=/home/taoanran/git/anrdroid4.0
+export TMPDIR=$ROOTDIR/tmp
+
+#toolchain
+#export PREBUILT=$ROOTDIR/prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x
+export PREBUILT=$ROOTDIR/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3
+#NDK
+export PLATFORM=$ROOTDIR/prebuilt/ndk/android-ndk-r6/platforms/android-9/arch-arm
+
+./configure --target-os=linux \
+    --arch=arm \
+    --enable-cross-compile \
+#    --cc=$PREBUILT/bin/arm-linux-androideabi-gcc \
+ #   --cross-prefix=$PREBUILT/bin/arm-linux-androideabi- \
+  #  --nm=$PREBUILT/bin/arm-linux-androideabi-nm \
+    --cc=$PREBUILT/bin/arm-eabi-gcc \
+    --cross-prefix=$PREBUILT/bin/arm-eabi- \
+    --nm=$PREBUILT/bin/arm-eabi-gcc-nm \
+    --extra-cflags="-fPIC -DANDROID" \
+    --enable-static \
+    --disable-shared \
+    --disable-asm \
+    --disable-yasm \
+    --prefix=$ROOTDIR/ffmpeg_android_bin \
+    #--extra-ldflags="-WI,-T,$PREBUILT/arm-linux-androideabi/lib/ldscripts/armelf_linux_eabi.x -WI,-rpath-link=$ROOTDIR/out/target/product/generic/obj/lib -nostdlib $PREBUILT/lib/gcc/arm-linux-androideabi/4.4.3/crtbegin.o lib/gcc/arm-linux-androideabi/4.4.3/crtend.o -lc -lm -ldl"
+    --extra-ldflags="-Wl,-T,$PREBUILT/arm-linux-androideabi/lib/ldscripts/armelf_linux_eabi.x -Wl,\
+        -rpath-link=$PLATFORM/usr/lib \
+        -L$PLATFORM/usr/lib -nostdlib \
+        $PREBUILT/lib/gcc/arm-linux-androideabi/4.4.3/crtbegin.o \
+        $PREBUILT/lib/gcc/arm-linux-androideabi/4.4.3/crtend.o -lc -lm -ldl"

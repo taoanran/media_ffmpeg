@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/home/taoanran/git/anrdroid4.0/external/media/ffmpeg-0.8.7
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 53.8.0
+Requires: libavutil = 51.9.1
+Conflicts:
+Libs: ${libdir}/libavcodec.a 
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/home/taoanran/git/anrdroid4.0/external/media/ffmpeg-0.8.7
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 51.9.1
+Requires: 
+Conflicts:
+Libs: ${libdir}/libavutil.a 
+Cflags: -I${includedir}
